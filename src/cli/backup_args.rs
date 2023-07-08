@@ -17,7 +17,7 @@ pub struct BackupArgs {
     pub mailbox: Option<String>,
 
     #[arg(short, long, default_value = "5")]
-    /// The number of emails to download per batch (defaults to 5)
+    /// The number of emails to download per batch
     pub batch_size: usize,
 
     #[arg(short, long)]
@@ -25,7 +25,7 @@ pub struct BackupArgs {
     pub output_directory: Option<PathBuf>,
 
     #[arg(short, long, default_value = "0")]
-    /// The message number to start backing up from (defaults to 0)
+    /// The message number to start backing up from
     pub from: u32,
 
     #[arg(short, long)]
