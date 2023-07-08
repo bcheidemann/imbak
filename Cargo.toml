@@ -1,6 +1,13 @@
 [package]
 author = "Ben Heidemann <ben@heidemann.dev>"
 name = "imbak"
+description = "A command line tool for backing up IMAP mailboxes"
+homepage = "https://github.com/bcheidemann/imbak"
+repository = "https://github.com/bcheidemann/imbak"
+readme = "README.md"
+keywords = ["imap", "cli", "backup", "mail", "email"]
+categories = ["command-line-utilities", "email"]
+license = "MIT"
 version = "0.1.0"
 edition = "2021"
 
